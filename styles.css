@@ -62,11 +62,13 @@ nav {
   color: var(--very-light-pink);
   font-size: var(--sm);
   margin-right: 12px;
+  cursor: pointer;
 }
 .navbar-shopping-cart {
   position: relative;
   top: 3px;
   right: -7px;
+  cursor: pointer;
 }
 .navbar-shopping-cart div {
   width: 15px;
@@ -327,6 +329,7 @@ aside {
   height: 240px;
   border-radius: 20px;
   object-fit: cover;
+  cursor: pointer;
 }
 .product-card .product-info {
   display: flex;
@@ -359,6 +362,7 @@ aside {
 @media (max-width: 640px) {
   .menu {
       display: block;
+      cursor: pointer;
   }
   .navbar-left ul,
   .navbar-email,
